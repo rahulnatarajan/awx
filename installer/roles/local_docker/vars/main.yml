@@ -1,0 +1,15 @@
+---
+# Note: you need first to add your vars and names
+#
+## awx installation info ##
+
+dockerhub_base: "{{ dockerhub_base }}"
+dockerhub_version: "{{ dockerhub_version }}" 
+host_port: "{{ host_port }}"
+pg_hostname: "{{ pg_hostname }}"
+pg_username: "{{ pg_username }}"
+pg_password: "{{ pg_password }}"
+pg_database: "{{ pg_database }}"
+pg_port: "{{ pg_port }}"
+secret_key: "{{ secret_key }}"
+postgres_data_dir: "{{ postgres_data_dir }}"
